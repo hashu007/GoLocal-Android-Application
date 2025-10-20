@@ -1,10 +1,10 @@
-🗺️ Go Local — Android Tourism & Events Guide App
+******🗺️ Go Local — Android Tourism & Events Guide App******
 
 Go Local is a Flutter-based Android application that helps users explore nearby attractions, events, and places of interest across major cities of Pakistan.
 It provides both public and admin dashboards, allowing visitors to discover destinations while giving admins the ability to manage attractions, events, and user reviews in real time.
 
-📱 Features
-👥 Public Dashboard
+****📱 Features****
+**👥 Public Dashboard**
 
 Browse attractions and events by city (Karachi, Lahore, Islamabad, etc.)
 
@@ -18,7 +18,7 @@ Add and view reviews with live ratings
 
 Personalized profile with image upload
 
-🛠️ Admin Dashboard
+**🛠️ Admin Dashboard**
 
 Manage Attractions (Add / Edit / Delete)
 
@@ -30,7 +30,7 @@ Upload images via Firebase Storage
 
 Real-time Firestore updates
 
-🔐 Authentication
+**🔐 Authentication**
 
 Firebase Authentication for secure login/signup
 
@@ -44,7 +44,7 @@ Firebase Storage (Image Hosting)
 
 Firebase Auth (User Access Control)
 
-⚙️ Tech Stack
+**⚙️ Tech Stack**
 Layer	Technology
 Frontend	Flutter (Dart)
 Backend	Firebase Firestore
@@ -52,7 +52,7 @@ Cloud Storage	Firebase Storage
 Authentication	Firebase Auth
 IDE Used	Android Studio
 Platform	Android
-🧩 Folder Structure
+**🧩 Folder Structure**
 lib/
 ├── admin_dashboard.dart
 ├── ProfilePage.dart
@@ -63,7 +63,7 @@ lib/
 ├── SplashScreen.dart
 ├── main.dart
 
-🧰 Installation Guide
+****🧰 Installation Guide****
 Prerequisites
 
 Install Flutter SDK
@@ -74,30 +74,30 @@ Connect Firebase using google-services.json
 
 Install Android Studio or VS Code
 
-Steps
+****Steps****
 
-Clone the repository
+**Clone the repository**
 
 git clone https://github.com/YOUR_USERNAME/go-local.git
 cd go-local
 
 
-Install dependencies
+**Install dependencies**
 
 flutter pub get
 
 
-Add Firebase
+**Add Firebase**
 
 Place your google-services.json inside /android/app/
 
 Enable Firestore, Authentication, and Storage in Firebase Console
 
-Run the app
+**Run the app**
 
 flutter run
 
-🚀 How to Use
+****🚀 How to Use****
 
 Launch the app and sign in or register.
 
@@ -109,7 +109,7 @@ Add your review and star rating.
 
 (Admin) Use the dashboard to manage content dynamically.
 
-📄 License
+****📄 License****
 
 This project is licensed under the
 Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0) license.
