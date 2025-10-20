@@ -1,25 +1,119 @@
-# login
+🗺️ Go Local — Android Tourism & Events Guide App
 
-A new Flutter project.
+Go Local is a Flutter-based Android application that helps users explore nearby attractions, events, and places of interest across major cities of Pakistan.
+It provides both public and admin dashboards, allowing visitors to discover destinations while giving admins the ability to manage attractions, events, and user reviews in real time.
 
-## Getting Started
+📱 Features
+👥 Public Dashboard
 
-This project is a starting point for a Flutter application.
+Browse attractions and events by city (Karachi, Lahore, Islamabad, etc.)
 
-A few resources to get you started if this is your first Flutter project:
+Search with live filters by name or title
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+View detailed information for each attraction/event
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Open location in Google Maps
 
-## 🛡️ License
+Add and view reviews with live ratings
 
-This project is protected under a **No Modification License**.
+Personalized profile with image upload
 
-You are free to **view and clone this repository for learning or reference purposes**, but you **may not modify, redistribute, or use the code** in any personal or commercial project without explicit permission from the authors.
+🛠️ Admin Dashboard
 
-© 2025 Go Local Team – All Rights Reserved.
+Manage Attractions (Add / Edit / Delete)
+
+Manage Events (Add / Edit / Delete)
+
+Review moderation system
+
+Upload images via Firebase Storage
+
+Real-time Firestore updates
+
+🔐 Authentication
+
+Firebase Authentication for secure login/signup
+
+Logout and session management
+
+☁️ Cloud Integration
+
+Firebase Firestore (Database)
+
+Firebase Storage (Image Hosting)
+
+Firebase Auth (User Access Control)
+
+⚙️ Tech Stack
+Layer	Technology
+Frontend	Flutter (Dart)
+Backend	Firebase Firestore
+Cloud Storage	Firebase Storage
+Authentication	Firebase Auth
+IDE Used	Android Studio
+Platform	Android
+🧩 Folder Structure
+lib/
+├── admin_dashboard.dart
+├── ProfilePage.dart
+├── PublicDashboard.dart
+├── _ImagePlaceholder.dart
+├── SignIn.dart
+├── SignUp.dart
+├── SplashScreen.dart
+├── main.dart
+
+🧰 Installation Guide
+Prerequisites
+
+Install Flutter SDK
+
+Create and configure a Firebase Project
+
+Connect Firebase using google-services.json
+
+Install Android Studio or VS Code
+
+Steps
+
+Clone the repository
+
+git clone https://github.com/YOUR_USERNAME/go-local.git
+cd go-local
+
+
+Install dependencies
+
+flutter pub get
+
+
+Add Firebase
+
+Place your google-services.json inside /android/app/
+
+Enable Firestore, Authentication, and Storage in Firebase Console
+
+Run the app
+
+flutter run
+
+🚀 How to Use
+
+Launch the app and sign in or register.
+
+Browse attractions or events by city.
+
+Tap a card to view full details and location.
+
+Add your review and star rating.
+
+(Admin) Use the dashboard to manage content dynamically.
+
+📄 License
+
+This project is licensed under the
+Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0) license.
+
+🛡️ You may share this project freely, but cannot modify or redistribute altered versions.
+📘 Learn more: https://creativecommons.org/licenses/by-nd/4.0/
 
