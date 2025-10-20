@@ -109,6 +109,39 @@ Add your review and star rating.
 
 (Admin) Use the dashboard to manage content dynamically.
 
+## 📸 App Screenshots  
+
+### 🧭 User Interface  
+
+| Splash Screen | Login | Signup |  
+|:--------------:|:------:|:------:|  
+| ![SplashScreen](https://raw.githubusercontent.com/hashu007/GoLocal-Android-Application/main/screenshots/SplashScreen.jpeg) | ![Login](https://raw.githubusercontent.com/hashu007/GoLocal-Android-Application/main/screenshots/Login.jpeg) | ![Signup](https://raw.githubusercontent.com/hashu007/GoLocal-Android-Application/main/screenshots/Signup.jpeg) |  
+
+---
+
+### 👤 User Dashboard  
+
+| Public Dashboard | City Filter | Detail Page |  
+|:-----------------:|:------------:|:------------:|  
+| ![Public Dashboard](https://raw.githubusercontent.com/hashu007/GoLocal-Android-Application/main/screenshots/Public%20Dashboard.jpeg) | ![City Filter](https://raw.githubusercontent.com/hashu007/GoLocal-Android-Application/main/screenshots/City%20Filter.jpeg) | ![Detail Page](https://raw.githubusercontent.com/hashu007/GoLocal-Android-Application/main/screenshots/Detail%20Page.jpeg) |  
+
+| Review Section | Reviews | Profile Page |  
+|:---------------:|:--------:|:-------------:|  
+| ![review section](https://raw.githubusercontent.com/hashu007/GoLocal-Android-Application/main/screenshots/review%20section.jpeg) | ![Reviews](https://raw.githubusercontent.com/hashu007/GoLocal-Android-Application/main/screenshots/Reviews.jpeg) | ![profile page](https://raw.githubusercontent.com/hashu007/GoLocal-Android-Application/main/screenshots/profile%20page.jpeg) |  
+
+---
+
+### 🧑‍💻 Admin Dashboard  
+
+| Admin Dashboard | Add Portion | Admin Events Tab |  
+|:----------------:|:------------:|:----------------:|  
+| ![Admin dash](https://raw.githubusercontent.com/hashu007/GoLocal-Android-Application/main/screenshots/Admin%20dash.jpeg) | ![Add Portion](https://raw.githubusercontent.com/hashu007/GoLocal-Android-Application/main/screenshots/Add%20Portion.jpeg) | ![admin events tab](https://raw.githubusercontent.com/hashu007/GoLocal-Android-Application/main/screenshots/admin%20events%20tab.jpeg) |  
+
+| Events Tab | Sidebar | Forget Password |  
+|:-----------:|:--------:|:----------------:|  
+| ![Events Tab](https://raw.githubusercontent.com/hashu007/GoLocal-Android-Application/main/screenshots/Events%20Tab.jpeg) | ![Sidebar](https://raw.githubusercontent.com/hashu007/GoLocal-Android-Application/main/screenshots/Sidebar.jpeg) | ![Forget Password](https://raw.githubusercontent.com/hashu007/GoLocal-Android-Application/main/screenshots/Forget%20Password.jpeg) |  
+
+
 ****📄 License****
 
 This project is licensed under the
