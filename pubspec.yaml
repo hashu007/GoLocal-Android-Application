@@ -1,0 +1,45 @@
+name: login
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  cloud_firestore: ^6.0.0
+  firebase_auth: ^6.0.1
+  firebase_core: ^4.0.0
+  firebase_storage: ^13.0.1
+  image_picker: ^1.2.0
+  google_maps_flutter: ^2.3.1
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+# ✅ keep this at the root level (not under flutter:)
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/white.png
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
